@@ -7,7 +7,7 @@ spec:
     - name: nginx
       image: nginx:1.23.4
       ports:
-        containerPort: 80
+        - containerPort: 80
     - name: nginx-exporter
       image: 'nginx/nginx-prometheus-exporter:0.11'
       args:
